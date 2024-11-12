@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hi tara </title>
+    <link rel="stylesheet" href="ss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hey there!</h1>
+        <button id="askButton">Click me!</button>
+        <p id="message" class="hidden">Would you like to go out with me? 😊</p>
+    </div>
+
+    <script>
+        document.getElementById('askButton').onclick = function() {
+            document.getElementById('message').classList.remove('hidden');
+        };
+    </script>
+</body>
+</html>
